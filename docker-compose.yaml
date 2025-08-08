@@ -1,0 +1,28 @@
+version: '3.8'
+
+services:
+  nginx:
+    # image: nginx:1.26.3
+    image: openresty/openresty:1.21.4.1-0-alpine
+    restart: always
+    container_name: nginx
+    hostname: nginx
+    ports:
+      - "443:443"
+      - "80:80"
+    volumes:
+      - ./nginx/conf:/etc/nginx/conf.d
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf
+      - ./nginx/html:/usr/share/nginx/html
+      - ./nginx/ssl:/etc/nginx/ssl
+      - ./nginx/logs:/var/log/nginx
+      - ./nginx/static:/usr/local/openresty/nginx/static
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+    ulimits:
+      nofile:
+        soft: 655350
+        hard: 655350
