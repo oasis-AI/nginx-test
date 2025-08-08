@@ -1,5 +1,5 @@
 local cjson = require "cjson.safe"
-local file = "/usr/local/openresty/nginx/static/api/sys_list.json"
+local file = "/usr/local/openresty/nginx/static/api/operational_system.json"
 
 local function readfile(path)
     local f = io.open(path, "r")

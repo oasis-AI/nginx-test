@@ -4406,8 +4406,5 @@
         "children_total": 0
     },
     "msg": "select success",
-    "code": 0,
-    "allIPs": [
-        "192.168.3.117"
-    ]
+    "code": 0
 }

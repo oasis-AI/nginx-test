@@ -5945,8 +5945,5 @@
         "total": 220
     },
     "msg": "select success",
-    "code": 0,
-    "allIPs": [
-        "192.168.3.117"
-    ]
+    "code": 0
 }

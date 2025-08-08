@@ -1,68 +1,196 @@
-2025/08/06 02:14:33 [notice] 1#1: using the "epoll" event method
-2025/08/06 02:14:33 [notice] 1#1: nginx/1.26.3
-2025/08/06 02:14:33 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
-2025/08/06 02:14:33 [notice] 1#1: OS: Linux 6.14.10-orbstack-00291-g1b252bd3edea
-2025/08/06 02:14:33 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 655350:655350
-2025/08/06 02:14:33 [notice] 1#1: start worker processes
-2025/08/06 02:14:33 [notice] 1#1: start worker process 28
-2025/08/06 02:14:33 [notice] 1#1: start worker process 29
-2025/08/06 02:14:33 [notice] 1#1: start worker process 30
-2025/08/06 02:14:33 [notice] 1#1: start worker process 31
-2025/08/06 02:14:33 [notice] 1#1: start worker process 32
-2025/08/06 02:14:33 [notice] 1#1: start worker process 33
-2025/08/06 02:14:33 [notice] 1#1: start worker process 34
-2025/08/06 02:14:33 [notice] 1#1: start worker process 35
-2025/08/06 02:14:33 [notice] 1#1: start cache manager process 36
-2025/08/06 02:14:33 [notice] 1#1: start cache loader process 37
-2025/08/06 02:15:33 [notice] 37#37: http file cache: /var/cache/nginx/static 0.000M, bsize: 4096
-2025/08/06 02:15:33 [notice] 1#1: signal 17 (SIGCHLD) received from 37
-2025/08/06 02:15:33 [notice] 1#1: cache loader process 37 exited with code 0
-2025/08/06 02:15:33 [notice] 1#1: signal 29 (SIGIO) received
-2025/08/06 03:41:10 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
-2025/08/06 03:41:10 [notice] 28#28: gracefully shutting down
-2025/08/06 03:41:10 [notice] 30#30: gracefully shutting down
-2025/08/06 03:41:10 [notice] 29#29: gracefully shutting down
-2025/08/06 03:41:10 [notice] 32#32: gracefully shutting down
-2025/08/06 03:41:10 [notice] 33#33: gracefully shutting down
-2025/08/06 03:41:10 [notice] 31#31: gracefully shutting down
-2025/08/06 03:41:10 [notice] 34#34: gracefully shutting down
-2025/08/06 03:41:10 [notice] 35#35: gracefully shutting down
-2025/08/06 03:41:10 [notice] 36#36: exiting
-2025/08/06 03:41:10 [notice] 28#28: exiting
-2025/08/06 03:41:10 [notice] 32#32: exiting
-2025/08/06 03:41:10 [notice] 30#30: exiting
-2025/08/06 03:41:10 [notice] 28#28: exit
-2025/08/06 03:41:10 [notice] 32#32: exit
-2025/08/06 03:41:10 [notice] 29#29: exiting
-2025/08/06 03:41:10 [notice] 35#35: exiting
-2025/08/06 03:41:10 [notice] 30#30: exit
-2025/08/06 03:41:10 [notice] 29#29: exit
-2025/08/06 03:41:10 [notice] 31#31: exiting
-2025/08/06 03:41:10 [notice] 33#33: exiting
-2025/08/06 03:41:10 [notice] 35#35: exit
-2025/08/06 03:41:10 [notice] 34#34: exiting
-2025/08/06 03:41:10 [notice] 1#1: signal 17 (SIGCHLD) received from 28
-2025/08/06 03:41:10 [notice] 31#31: exit
-2025/08/06 03:41:10 [notice] 1#1: worker process 28 exited with code 0
-2025/08/06 03:41:10 [notice] 1#1: worker process 32 exited with code 0
-2025/08/06 03:41:10 [notice] 34#34: exit
-2025/08/06 03:41:10 [notice] 1#1: signal 29 (SIGIO) received
-2025/08/06 03:41:10 [notice] 1#1: signal 17 (SIGCHLD) received from 32
-2025/08/06 03:41:10 [notice] 33#33: exit
-2025/08/06 03:41:10 [notice] 1#1: signal 17 (SIGCHLD) received from 36
-2025/08/06 03:41:10 [notice] 1#1: cache manager process 36 exited with code 0
-2025/08/06 03:41:10 [notice] 1#1: signal 29 (SIGIO) received
-2025/08/06 03:41:10 [notice] 1#1: signal 17 (SIGCHLD) received from 30
-2025/08/06 03:41:10 [notice] 1#1: worker process 30 exited with code 0
-2025/08/06 03:41:10 [notice] 1#1: worker process 29 exited with code 0
-2025/08/06 03:41:10 [notice] 1#1: signal 29 (SIGIO) received
-2025/08/06 03:41:10 [notice] 1#1: signal 17 (SIGCHLD) received from 29
-2025/08/06 03:41:10 [notice] 1#1: signal 17 (SIGCHLD) received from 35
-2025/08/06 03:41:10 [notice] 1#1: worker process 33 exited with code 0
-2025/08/06 03:41:10 [notice] 1#1: worker process 31 exited with code 0
-2025/08/06 03:41:10 [notice] 1#1: worker process 35 exited with code 0
-2025/08/06 03:41:10 [notice] 1#1: signal 29 (SIGIO) received
-2025/08/06 03:41:10 [notice] 1#1: signal 17 (SIGCHLD) received from 33
-2025/08/06 03:41:10 [notice] 1#1: signal 17 (SIGCHLD) received from 34
-2025/08/06 03:41:10 [notice] 1#1: worker process 34 exited with code 0
-2025/08/06 03:41:10 [notice] 1#1: exit
+2025/08/06 07:37:55 [emerg] 1#1: open() "/etc/nginx/mime.types" failed (2: No such file or directory) in /usr/local/openresty/nginx/conf/nginx.conf:38
+2025/08/06 07:37:56 [emerg] 1#1: open() "/etc/nginx/mime.types" failed (2: No such file or directory) in /usr/local/openresty/nginx/conf/nginx.conf:38
+2025/08/06 07:37:56 [emerg] 1#1: open() "/etc/nginx/mime.types" failed (2: No such file or directory) in /usr/local/openresty/nginx/conf/nginx.conf:38
+2025/08/06 07:37:57 [emerg] 1#1: open() "/etc/nginx/mime.types" failed (2: No such file or directory) in /usr/local/openresty/nginx/conf/nginx.conf:38
+2025/08/06 07:37:58 [emerg] 1#1: open() "/etc/nginx/mime.types" failed (2: No such file or directory) in /usr/local/openresty/nginx/conf/nginx.conf:38
+2025/08/06 07:37:59 [emerg] 1#1: open() "/etc/nginx/mime.types" failed (2: No such file or directory) in /usr/local/openresty/nginx/conf/nginx.conf:38
+2025/08/06 07:38:03 [emerg] 1#1: open() "/etc/nginx/mime.types" failed (2: No such file or directory) in /usr/local/openresty/nginx/conf/nginx.conf:38
+2025/08/06 07:38:09 [emerg] 1#1: open() "/etc/nginx/mime.types" failed (2: No such file or directory) in /usr/local/openresty/nginx/conf/nginx.conf:38
+2025/08/06 07:38:23 [emerg] 1#1: open() "/etc/nginx/mime.types" failed (2: No such file or directory) in /usr/local/openresty/nginx/conf/nginx.conf:38
+2025/08/06 07:38:48 [emerg] 1#1: open() "/etc/nginx/mime.types" failed (2: No such file or directory) in /usr/local/openresty/nginx/conf/nginx.conf:38
+2025/08/06 07:39:40 [emerg] 1#1: invalid number of arguments in "include" directive in /usr/local/openresty/nginx/conf/nginx.conf:39
+2025/08/06 07:40:40 [emerg] 1#1: mkdir() "/var/cache/nginx/static" failed (2: No such file or directory)
+2025/08/06 07:41:05 [emerg] 1#1: mkdir() "/var/cache/nginx/static" failed (2: No such file or directory)
+2025/08/06 07:41:06 [emerg] 1#1: mkdir() "/var/cache/nginx/static" failed (2: No such file or directory)
+2025/08/06 07:41:06 [emerg] 1#1: mkdir() "/var/cache/nginx/static" failed (2: No such file or directory)
+2025/08/06 07:41:07 [emerg] 1#1: mkdir() "/var/cache/nginx/static" failed (2: No such file or directory)
+2025/08/06 07:41:08 [emerg] 1#1: mkdir() "/var/cache/nginx/static" failed (2: No such file or directory)
+2025/08/06 07:41:10 [emerg] 1#1: mkdir() "/var/cache/nginx/static" failed (2: No such file or directory)
+2025/08/06 07:41:13 [emerg] 1#1: mkdir() "/var/cache/nginx/static" failed (2: No such file or directory)
+2025/08/06 07:41:20 [emerg] 1#1: mkdir() "/var/cache/nginx/static" failed (2: No such file or directory)
+2025/08/06 07:41:33 [emerg] 1#1: mkdir() "/var/cache/nginx/static" failed (2: No such file or directory)
+2025/08/06 07:41:43 [emerg] 1#1: open() "/var/log/nginx/access.log" failed (2: No such file or directory)
+2025/08/06 07:41:44 [emerg] 1#1: open() "/var/log/nginx/access.log" failed (2: No such file or directory)
+2025/08/06 07:41:44 [emerg] 1#1: open() "/var/log/nginx/access.log" failed (2: No such file or directory)
+2025/08/06 07:41:45 [emerg] 1#1: open() "/var/log/nginx/access.log" failed (2: No such file or directory)
+2025/08/06 07:41:46 [emerg] 1#1: open() "/var/log/nginx/access.log" failed (2: No such file or directory)
+2025/08/06 07:41:48 [emerg] 1#1: open() "/var/log/nginx/access.log" failed (2: No such file or directory)
+2025/08/06 07:41:51 [emerg] 1#1: open() "/var/log/nginx/access.log" failed (2: No such file or directory)
+2025/08/06 07:41:58 [notice] 1#1: using the "epoll" event method
+2025/08/06 07:41:58 [notice] 1#1: openresty/1.21.4.1
+2025/08/06 07:41:58 [notice] 1#1: built by gcc 10.3.1 20211027 (Alpine 10.3.1_git20211027) 
+2025/08/06 07:41:58 [notice] 1#1: OS: Linux 6.14.10-orbstack-00291-g1b252bd3edea
+2025/08/06 07:41:58 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 655350:655350
+2025/08/06 07:41:58 [notice] 1#1: start worker processes
+2025/08/06 07:41:58 [notice] 1#1: start worker process 7
+2025/08/06 07:41:58 [notice] 1#1: start worker process 8
+2025/08/06 07:41:58 [notice] 1#1: start worker process 9
+2025/08/06 07:41:58 [notice] 1#1: start worker process 10
+2025/08/06 07:41:58 [notice] 1#1: start worker process 11
+2025/08/06 07:41:58 [notice] 1#1: start worker process 12
+2025/08/06 07:41:58 [notice] 1#1: start worker process 13
+2025/08/06 07:41:58 [notice] 1#1: start worker process 14
+2025/08/06 07:42:11 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2025/08/06 07:42:11 [notice] 7#7: gracefully shutting down
+2025/08/06 07:42:11 [notice] 13#13: gracefully shutting down
+2025/08/06 07:42:11 [notice] 11#11: gracefully shutting down
+2025/08/06 07:42:11 [notice] 14#14: gracefully shutting down
+2025/08/06 07:42:11 [notice] 8#8: gracefully shutting down
+2025/08/06 07:42:11 [notice] 10#10: gracefully shutting down
+2025/08/06 07:42:11 [notice] 12#12: gracefully shutting down
+2025/08/06 07:42:11 [notice] 9#9: gracefully shutting down
+2025/08/06 07:42:11 [notice] 7#7: exiting
+2025/08/06 07:42:11 [notice] 10#10: exiting
+2025/08/06 07:42:11 [notice] 11#11: exiting
+2025/08/06 07:42:11 [notice] 13#13: exiting
+2025/08/06 07:42:11 [notice] 9#9: exiting
+2025/08/06 07:42:11 [notice] 14#14: exiting
+2025/08/06 07:42:11 [notice] 12#12: exiting
+2025/08/06 07:42:11 [notice] 8#8: exiting
+2025/08/06 07:42:11 [notice] 7#7: exit
+2025/08/06 07:42:11 [notice] 11#11: exit
+2025/08/06 07:42:11 [notice] 10#10: exit
+2025/08/06 07:42:11 [notice] 9#9: exit
+2025/08/06 07:42:11 [notice] 13#13: exit
+2025/08/06 07:42:11 [notice] 14#14: exit
+2025/08/06 07:42:11 [notice] 8#8: exit
+2025/08/06 07:42:11 [notice] 12#12: exit
+2025/08/06 07:42:11 [notice] 1#1: signal 17 (SIGCHLD) received from 11
+2025/08/06 07:42:11 [notice] 1#1: worker process 11 exited with code 0
+2025/08/06 07:42:11 [notice] 1#1: signal 29 (SIGIO) received
+2025/08/06 07:42:11 [notice] 1#1: signal 17 (SIGCHLD) received from 7
+2025/08/06 07:42:11 [notice] 1#1: worker process 7 exited with code 0
+2025/08/06 07:42:11 [notice] 1#1: signal 29 (SIGIO) received
+2025/08/06 07:42:11 [notice] 1#1: signal 17 (SIGCHLD) received from 9
+2025/08/06 07:42:11 [notice] 1#1: worker process 9 exited with code 0
+2025/08/06 07:42:11 [notice] 1#1: signal 29 (SIGIO) received
+2025/08/06 07:42:11 [notice] 1#1: signal 17 (SIGCHLD) received from 10
+2025/08/06 07:42:11 [notice] 1#1: worker process 10 exited with code 0
+2025/08/06 07:42:11 [notice] 1#1: signal 29 (SIGIO) received
+2025/08/06 07:42:11 [notice] 1#1: signal 17 (SIGCHLD) received from 8
+2025/08/06 07:42:11 [notice] 1#1: worker process 8 exited with code 0
+2025/08/06 07:42:11 [notice] 1#1: worker process 13 exited with code 0
+2025/08/06 07:42:11 [notice] 1#1: worker process 14 exited with code 0
+2025/08/06 07:42:11 [notice] 1#1: signal 29 (SIGIO) received
+2025/08/06 07:42:11 [notice] 1#1: signal 17 (SIGCHLD) received from 14
+2025/08/06 07:42:11 [notice] 1#1: signal 17 (SIGCHLD) received from 12
+2025/08/06 07:42:11 [notice] 1#1: worker process 12 exited with code 0
+2025/08/06 07:42:11 [notice] 1#1: exit
+2025/08/06 07:42:14 [notice] 1#1: using the "epoll" event method
+2025/08/06 07:42:14 [notice] 1#1: openresty/1.21.4.1
+2025/08/06 07:42:14 [notice] 1#1: built by gcc 10.3.1 20211027 (Alpine 10.3.1_git20211027) 
+2025/08/06 07:42:14 [notice] 1#1: OS: Linux 6.14.10-orbstack-00291-g1b252bd3edea
+2025/08/06 07:42:14 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 655350:655350
+2025/08/06 07:42:14 [notice] 1#1: start worker processes
+2025/08/06 07:42:14 [notice] 1#1: start worker process 7
+2025/08/06 07:42:14 [notice] 1#1: start worker process 8
+2025/08/06 07:42:14 [notice] 1#1: start worker process 9
+2025/08/06 07:42:14 [notice] 1#1: start worker process 10
+2025/08/06 07:42:14 [notice] 1#1: start worker process 11
+2025/08/06 07:42:14 [notice] 1#1: start worker process 12
+2025/08/06 07:42:14 [notice] 1#1: start worker process 13
+2025/08/06 07:42:14 [notice] 1#1: start worker process 14
+2025/08/06 07:45:55 [info] 10#10: *11 client 192.168.148.1 closed keepalive connection
+2025/08/06 07:45:55 [info] 7#7: *23 client 192.168.148.1 closed keepalive connection
+2025/08/06 07:45:55 [info] 10#10: *13 client 192.168.148.1 closed keepalive connection
+2025/08/06 07:45:57 [info] 10#10: *6 client 192.168.148.1 closed keepalive connection
+2025/08/06 07:45:57 [info] 10#10: *5 client 192.168.148.1 closed keepalive connection
+2025/08/06 07:45:57 [info] 10#10: *1 client 192.168.148.1 closed keepalive connection
+2025/08/06 07:58:30 [info] 8#8: *100 client 192.168.148.1 closed keepalive connection
+2025/08/06 07:58:30 [info] 8#8: *90 client 192.168.148.1 closed keepalive connection
+2025/08/06 07:58:30 [info] 8#8: *98 client 192.168.148.1 closed keepalive connection
+2025/08/06 07:58:30 [info] 8#8: *99 client 192.168.148.1 closed keepalive connection
+2025/08/06 07:58:33 [info] 8#8: *89 client 192.168.148.1 closed keepalive connection
+2025/08/06 07:58:44 [info] 7#7: *221 client 192.168.148.1 closed keepalive connection
+2025/08/06 07:58:44 [info] 7#7: *222 client 192.168.148.1 closed keepalive connection
+2025/08/06 07:58:44 [info] 7#7: *231 client 192.168.148.1 closed keepalive connection
+2025/08/06 07:58:44 [info] 7#7: *225 client 192.168.148.1 closed keepalive connection
+2025/08/06 07:58:44 [info] 7#7: *227 client 192.168.148.1 closed keepalive connection
+2025/08/06 07:58:44 [info] 7#7: *228 client 192.168.148.1 closed keepalive connection
+2025/08/06 07:58:47 [info] 8#8: *95 client 192.168.148.1 closed keepalive connection
+2025/08/06 08:08:45 [info] 8#8: *255 client 192.168.148.1 closed keepalive connection
+2025/08/06 08:11:31 [info] 10#10: *258 client 192.168.148.1 closed keepalive connection
+2025/08/06 08:13:50 [info] 9#9: *260 client 192.168.148.1 closed keepalive connection
+2025/08/06 08:20:38 [info] 9#9: *268 client 192.168.148.1 closed keepalive connection
+2025/08/06 08:21:07 [info] 9#9: *262 client 192.168.148.1 closed keepalive connection
+2025/08/06 08:24:20 [info] 13#13: *277 client 192.168.148.1 closed keepalive connection
+2025/08/06 08:44:41 [info] 8#8: *280 client 192.168.148.1 closed keepalive connection
+2025/08/06 09:25:44 [info] 8#8: *287 client 192.168.148.1 closed keepalive connection
+2025/08/06 09:25:44 [info] 8#8: *288 client 192.168.148.1 closed keepalive connection
+2025/08/06 10:02:12 [info] 10#10: *42 upstream timed out (110: Operation timed out) while proxying upgraded connection, client: 192.168.148.1, server: _, request: "GET / HTTP/1.1", upstream: "http://192.168.0.219:8810/", host: "192.168.0.219"
+2025/08/06 12:14:27 [info] 10#10: epoll_wait() failed (4: Interrupted system call)
+2025/08/06 12:14:27 [info] 7#7: epoll_wait() failed (4: Interrupted system call)
+2025/08/06 12:14:27 [info] 9#9: epoll_wait() failed (4: Interrupted system call)
+2025/08/06 12:14:27 [info] 12#12: epoll_wait() failed (4: Interrupted system call)
+2025/08/06 12:14:27 [info] 13#13: epoll_wait() failed (4: Interrupted system call)
+2025/08/06 12:14:27 [info] 11#11: epoll_wait() failed (4: Interrupted system call)
+2025/08/06 12:14:27 [info] 8#8: epoll_wait() failed (4: Interrupted system call)
+2025/08/06 12:14:27 [info] 13#13: *329 upstream timed out (110: Operation timed out) while proxying upgraded connection, client: 192.168.148.1, server: _, request: "GET / HTTP/1.1", upstream: "http://192.168.0.219:8810/", host: "192.168.0.219"
+2025/08/06 12:14:27 [info] 14#14: epoll_wait() failed (4: Interrupted system call)
+2025/08/07 01:19:41 [info] 7#7: epoll_wait() failed (4: Interrupted system call)
+2025/08/07 01:19:41 [info] 10#10: epoll_wait() failed (4: Interrupted system call)
+2025/08/07 01:19:41 [info] 12#12: epoll_wait() failed (4: Interrupted system call)
+2025/08/07 01:19:41 [info] 9#9: epoll_wait() failed (4: Interrupted system call)
+2025/08/07 01:19:41 [info] 8#8: epoll_wait() failed (4: Interrupted system call)
+2025/08/07 01:19:41 [info] 11#11: epoll_wait() failed (4: Interrupted system call)
+2025/08/07 01:19:41 [info] 14#14: epoll_wait() failed (4: Interrupted system call)
+2025/08/07 01:19:41 [info] 13#13: epoll_wait() failed (4: Interrupted system call)
+2025/08/07 03:29:37 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2025/08/07 03:29:37 [notice] 8#8: gracefully shutting down
+2025/08/07 03:29:37 [notice] 7#7: gracefully shutting down
+2025/08/07 03:29:37 [notice] 11#11: gracefully shutting down
+2025/08/07 03:29:37 [notice] 9#9: gracefully shutting down
+2025/08/07 03:29:37 [notice] 10#10: gracefully shutting down
+2025/08/07 03:29:37 [notice] 13#13: gracefully shutting down
+2025/08/07 03:29:37 [notice] 14#14: gracefully shutting down
+2025/08/07 03:29:37 [notice] 12#12: gracefully shutting down
+2025/08/07 03:29:37 [notice] 13#13: exiting
+2025/08/07 03:29:37 [notice] 12#12: exiting
+2025/08/07 03:29:37 [notice] 7#7: exiting
+2025/08/07 03:29:37 [notice] 8#8: exiting
+2025/08/07 03:29:37 [notice] 11#11: exiting
+2025/08/07 03:29:37 [notice] 9#9: exiting
+2025/08/07 03:29:37 [notice] 14#14: exiting
+2025/08/07 03:29:37 [notice] 7#7: exit
+2025/08/07 03:29:37 [notice] 11#11: exit
+2025/08/07 03:29:37 [notice] 9#9: exit
+2025/08/07 03:29:37 [notice] 13#13: exit
+2025/08/07 03:29:37 [notice] 14#14: exit
+2025/08/07 03:29:37 [notice] 10#10: exiting
+2025/08/07 03:29:37 [notice] 12#12: exit
+2025/08/07 03:29:37 [notice] 8#8: exit
+2025/08/07 03:29:37 [notice] 10#10: exit
+2025/08/07 03:29:38 [notice] 1#1: signal 17 (SIGCHLD) received from 11
+2025/08/07 03:29:38 [notice] 1#1: worker process 11 exited with code 0
+2025/08/07 03:29:38 [notice] 1#1: signal 29 (SIGIO) received
+2025/08/07 03:29:38 [notice] 1#1: signal 17 (SIGCHLD) received from 10
+2025/08/07 03:29:38 [notice] 1#1: worker process 10 exited with code 0
+2025/08/07 03:29:38 [notice] 1#1: signal 29 (SIGIO) received
+2025/08/07 03:29:38 [notice] 1#1: signal 17 (SIGCHLD) received from 14
+2025/08/07 03:29:38 [notice] 1#1: worker process 14 exited with code 0
+2025/08/07 03:29:38 [notice] 1#1: signal 29 (SIGIO) received
+2025/08/07 03:29:38 [notice] 1#1: signal 17 (SIGCHLD) received from 13
+2025/08/07 03:29:38 [notice] 1#1: worker process 13 exited with code 0
+2025/08/07 03:29:38 [notice] 1#1: signal 29 (SIGIO) received
+2025/08/07 03:29:38 [notice] 1#1: signal 17 (SIGCHLD) received from 12
+2025/08/07 03:29:38 [notice] 1#1: worker process 12 exited with code 0
+2025/08/07 03:29:38 [notice] 1#1: signal 29 (SIGIO) received
+2025/08/07 03:29:38 [notice] 1#1: signal 17 (SIGCHLD) received from 7
+2025/08/07 03:29:38 [notice] 1#1: worker process 7 exited with code 0
+2025/08/07 03:29:38 [notice] 1#1: signal 29 (SIGIO) received
+2025/08/07 03:29:38 [notice] 1#1: signal 17 (SIGCHLD) received from 8
+2025/08/07 03:29:38 [notice] 1#1: worker process 8 exited with code 0
+2025/08/07 03:29:38 [notice] 1#1: signal 29 (SIGIO) received
+2025/08/07 03:29:38 [notice] 1#1: signal 17 (SIGCHLD) received from 9
+2025/08/07 03:29:38 [notice] 1#1: worker process 9 exited with code 0
+2025/08/07 03:29:38 [notice] 1#1: exit
